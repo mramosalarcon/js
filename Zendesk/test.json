@@ -1,0 +1,759 @@
+{
+    "tickets": [
+        {
+            "url": "https://casd.zendesk.com/api/v2/tickets/13452.json",
+            "id": 13452,
+            "external_id": null,
+            "via": {
+                "channel": "web",
+                "source": {
+                    "from": {},
+                    "to": {},
+                    "rel": null
+                }
+            },
+            "created_at": "2024-03-06T19:04:24Z",
+            "updated_at": "2024-08-06T23:01:34Z",
+            "generated_timestamp": 1722985294,
+            "type": "incident",
+            "subject": "Error en la extracción de detecciones",
+            "raw_subject": "Error en la extracción de detecciones",
+            "description": "Buen día.\n\nAnteriormente podíamos realizar la extracción de las detecciones de un mes mediante una función(Query) en el modulo de event search solo pegando esta función (Query) y cambiando unos parámetros de fechas, al parecer ahora se actualizo  esta parte y se depreco la anterior, nos gustaría obtener ayuda para generar una función similar basada en las nuevas funcionalidades del event serach, la salida que necesitamos es un archivo CSV con la siguiente información:\n\nFecha de actualización de la detección, Quien atendió, estatus , Tiempo que se llevo, Fecha y Hora Detección, objetivo, táctica, técnica, Descripción de la detección, Severidad, AVHits, Host en que ocurrió, Nombre de usuario, Nombre del archivo, CommandLine, MD5String, SHA256String\n\nPodemos tener sesión hoy de 3 a 5.",
+            "priority": "urgent",
+            "status": "closed",
+            "recipient": null,
+            "requester_id": 1534368733022,
+            "submitter_id": 1534368733022,
+            "assignee_id": 370963202494,
+            "organization_id": 370387199154,
+            "group_id": 360002655254,
+            "collaborator_ids": [
+                27117451115155
+            ],
+            "follower_ids": [
+                27117451115155
+            ],
+            "email_cc_ids": [],
+            "forum_topic_id": null,
+            "problem_id": null,
+            "has_incidents": false,
+            "is_public": true,
+            "due_at": null,
+            "tags": [
+                "cliente",
+                "emiliano_camacho",
+                "hdi",
+                "hábil_",
+                "juan_hernandez_clone",
+                "juan_hernandez_n2",
+                "n/a",
+                "requerimiento",
+                "resuelto"
+            ],
+            "custom_fields": [
+                {
+                    "id": 360015724594,
+                    "value": "hdi"
+                },
+                {
+                    "id": 360015065314,
+                    "value": "Juan Hernandez"
+                },
+                {
+                    "id": 27417640903571,
+                    "value": "juan_hernandez_clone"
+                },
+                {
+                    "id": 15487331335315,
+                    "value": "emiliano_camacho"
+                },
+                {
+                    "id": 18968116835859,
+                    "value": "juan_hernandez_n2"
+                },
+                {
+                    "id": 18968163656211,
+                    "value": null
+                },
+                {
+                    "id": 15774039221907,
+                    "value": null
+                },
+                {
+                    "id": 360015186754,
+                    "value": "requerimiento"
+                },
+                {
+                    "id": 360038794914,
+                    "value": "n/a"
+                },
+                {
+                    "id": 360022071074,
+                    "value": "hábil_"
+                },
+                {
+                    "id": 360024363273,
+                    "value": null
+                },
+                {
+                    "id": 18965738101779,
+                    "value": "1"
+                },
+                {
+                    "id": 18965754813203,
+                    "value": "2"
+                },
+                {
+                    "id": 360018398014,
+                    "value": "cliente"
+                },
+                {
+                    "id": 360057878233,
+                    "value": "resuelto"
+                }
+            ],
+            "satisfaction_rating": {
+                "score": "bad",
+                "id": 31623598357779,
+                "comment": "Mandaron documentación general pero en realidad  quedó sin resolver la consulta inicial y ya no pusieron comentarios al respecto.\r\nSaludos. ",
+                "reason": "El problema quedó sin resolver",
+                "reason_id": 360001532434
+            },
+            "sharing_agreement_ids": [],
+            "custom_status_id": 1500002529221,
+            "encoded_id": "Z3953L-33JXP",
+            "fields": [
+                {
+                    "id": 360015724594,
+                    "value": "hdi"
+                },
+                {
+                    "id": 360015065314,
+                    "value": "Juan Hernandez"
+                },
+                {
+                    "id": 27417640903571,
+                    "value": "juan_hernandez_clone"
+                },
+                {
+                    "id": 15487331335315,
+                    "value": "emiliano_camacho"
+                },
+                {
+                    "id": 18968116835859,
+                    "value": "juan_hernandez_n2"
+                },
+                {
+                    "id": 18968163656211,
+                    "value": null
+                },
+                {
+                    "id": 15774039221907,
+                    "value": null
+                },
+                {
+                    "id": 360015186754,
+                    "value": "requerimiento"
+                },
+                {
+                    "id": 360038794914,
+                    "value": "n/a"
+                },
+                {
+                    "id": 360022071074,
+                    "value": "hábil_"
+                },
+                {
+                    "id": 360024363273,
+                    "value": null
+                },
+                {
+                    "id": 18965738101779,
+                    "value": "1"
+                },
+                {
+                    "id": 18965754813203,
+                    "value": "2"
+                },
+                {
+                    "id": 360018398014,
+                    "value": "cliente"
+                },
+                {
+                    "id": 360057878233,
+                    "value": "resuelto"
+                }
+            ],
+            "followup_ids": [],
+            "brand_id": 360001653814,
+            "allow_channelback": false,
+            "allow_attachments": true,
+            "from_messaging_channel": false
+        },
+        {
+            "url": "https://casd.zendesk.com/api/v2/tickets/13476.json",
+            "id": 13476,
+            "external_id": null,
+            "via": {
+                "channel": "web",
+                "source": {
+                    "from": {},
+                    "to": {},
+                    "rel": null
+                }
+            },
+            "created_at": "2024-03-08T21:58:25Z",
+            "updated_at": "2024-08-13T17:06:48Z",
+            "generated_timestamp": 1723568808,
+            "type": "incident",
+            "subject": "Boletines de CyberArk [Inbursa]",
+            "raw_subject": "Boletines de CyberArk [Inbursa]",
+            "description": "************* Apertura de ticket: \" Boletines de CyberArk [Inbursa] \" *************\n\n\n**Soporte N2**\nAsignar\nHoy 13:31\n************* Apertura de ticket: \" Boletines de CyberArk [CETELEM] \" *************\n\n\nBuen día,\n\nEsperando que se encuentre muy bien, el motivo de este correo es explicar los boletines emitidos por CyberArk\n\n**CyberArk Security Bulletin CA24-03**\n\n\nComponente afectado: Privilege Session Manager, Self-Hosted\n\nImpacto: Posible ataque de inyección de DLL\n\nVersiones para mitigar la vulnerabilidad:\n\n\n\n**Installed version**\n\n**Patch version**\n\n**Download link**\nPSM version 14.0 and higher No action required\nPSM 12.6 (LTS) and its patches prior to 12.6.9 or older 12.6.9 https://www.cyberark.com/CA24-03-12.6.9\nPSM 12.2 (LTS) and its patches prior to 12.2.14 or older 12.2.14 https://www.cyberark.com/CA24-03-12.2.14\n\n\nMitigación:\n\nVersión 1.1:\n\nPara las versiones 12.2 y 12.6, puede ejecutar el script de refuerzo como mitigación temporal hasta que actualice a la versión parcheada.\n\nhttps://cyberark.my.site.com/s/article/CyberArk-Security-Bulletin-FAQ-CA24-03\n\nVersión 1.2:\n\nPara la versión 13.2, puede ejecutar un script de refuerzo dedicado como mitigación.\n\nhttps://cyberark.my.site.com/s/article/CyberArk-Security-Bulletin-FAQ-CA24-03\n\nPara más información del boletín consultar el siguiente link: https://cyberark.my.site.com/s/article/CyberArk-Security-Bulletin-CA24-03?utm_source=email&utm_medium=link_article&utm_campaign=pam_maintenanceannouncement_march24\n\n**CyberArk Security Bulletin CA24-05**\n\nComponente afectado: Privileged Threat Analytics, Self-hosted\n\nImpacto: RCE potencial en el componente de terceros de PTA, Apache ActiveMQ\n\nVersiones para mitigar la vulnerabilidad:\n\n\n**Installed version**\n\n**Patch version**\n\n**Download link**\nPTA version 14.0 and higher No action required\nPTA versions prior to 14.0 14.0 https://www.cyberark.com/CA24-05-PTA-14.0\nPTA 12.6 (LTS) and its patches prior to 12.6.11 or older 12.6.11 https://www.cyberark.com/CA24-05-PTA-12.6.11\nPTA 12.2 (LTS) and its patches prior to 12.2.16 or older 12.2.16 https://www.cyberark.com/CA24-05-PTA-12.2.16\n\nMitigación temporal:\n\nHasta que aplique la resolución, le recomendamos validar que el puerto 61616 permanezca bloqueado en el servidor PTA (de forma predeterminada, PTA bloquea el acceso remoto al puerto 61616 a través de reglas de firewall) para reducir la superficie de ataque.\n\nPara más información del boletín consultar el siguiente link: https://cyberark.my.site.com/s/article/CyberArk-Security-Bulletin-CA24-05?utm_source=email&utm_medium=link_article&utm_campaign=pam_maintenanceannouncement_march24\n\n**CyberArk Security Bulletin CA24-06**\n\nComponente afectado: HTML5 Gateway Self-Hosted (RPM)\n\nImpacto: Posible sobrescritura de una configuración de seguridad durante la actualización de HTML5GW RPM\n\n\n\n**Installed version**\n\n**Patch version**\n\n**Download link**\nHTML5GW version 14.0 or higher No action required\nHTML5GW 12.6 (LTS) and its patches prior to 12.6.10 or older 12.6.10 https://www.cyberark.com/CA24-06-H5GW-12.6.10\nHTML5GW12.2 (LTS) and its prior patches prior to 12.2.17 or older 12.2.17 https://www.cyberark.com/CA24-06-H5GW-12.2.17\n\n\nMitigación temporal:\n\nDurante la actualización de HTML5GW a través de RPM, la configuración EnableJWTValidation del cliente en el archivo de configuración psmgw.conf podría sobrescribirse con el valor en el archivo de parámetros de instalación psmgwparms.\n\nPara más información del boletín consultar el siguiente link: https://cyberark.my.site.com/s/article/CyberArk-Security-Bulletin-CA24-06?utm_source=email&utm_medium=link_article&utm_campaign=pam_maintenanceannouncement_march24\n\n**CyberArk Security Bulletin CA24-07**\n\nComponente afectado: Extensions - SSH Keys Platform for PAM Self-Hosted customers\n\nImpacto: Posible escalada de privilegios durante la rotación de claves SSH\n\nResolution\n\n\n\n1. Haga una copia de seguridad de los siguientes archivos ubicados en el [CPM installation folder\\bin]\n\n- CyberArk.Extensions.Contracts.dll\n- Expect.NET.dll\n- PMUnixSSHKeys.dll\n\nNota: Esta versión de plataforma es compatible con todas las versiones compatibles de CPM.\n\n\n\n1. Descomprima el archivo descargado y extraiga los tres archivos mencionados anteriormente.\n2. Sobrescriba los archivos existentes en el servidor CPM ubicado en la carpeta [carpeta de instalación de CPM\\bin].\n\nPara más información del boletín consultar el siguiente link: https://cyberark.my.site.com/s/article/CyberArk-Security-Bulletin-CA24-07?utm_source=email&utm_medium=link_article&utm_campaign=pam_maintenanceannouncement_march24\n\n**CyberArk Security Bulletin CA24-09**\n\nComponente afectado: Password Vault Web Access (PVWA) Self-Hosted\n\nImpacto: Posibles vulnerabilidades XSS que plantean el riesgo de ejecución de scripts no autorizados y posible compromiso de datos\n\n\n\n**Installed version**\n\n**Patch version**\n\n**Download link**\nPVWA-SH 14.0 14.0.1 https://www.cyberark.com/CA24-09-PVWA-14.0.1\nPVWA-SH 12.6 (LTS) and its patches prior to 12.6.12 12.6.12 https://www.cyberark.com/CA24-09-PVWA-12.6.12\nPVWA-SH 12.2 (LTS) and its patches prior to 12.2.17 12.2.17 https://www.cyberark.com/CA24-09-PVWA-12.2.17\n\nPara más información del boletín consultar el siguiente link: https://cyberark.my.site.com/s/article/CyberArk-Security-Bulletin-CA24-09?utm_source=email&utm_medium=link_article&utm_campaign=pam_maintenanceannouncement_march24\n\nSin más por el momento, quedo al pendiente cualquier duda o de ser necesario indiqueme dos horarios disponibles para el día lunes 11/03/04.\n\nSaludos\n\n\n**************************************************************",
+            "priority": "normal",
+            "status": "closed",
+            "recipient": null,
+            "requester_id": 374655865954,
+            "submitter_id": 430069313954,
+            "assignee_id": 430069313954,
+            "organization_id": 367996959853,
+            "group_id": 360005882613,
+            "collaborator_ids": [
+                370691200154,
+                16173449169427
+            ],
+            "follower_ids": [
+                370691200154,
+                16173449169427
+            ],
+            "email_cc_ids": [],
+            "forum_topic_id": null,
+            "problem_id": null,
+            "has_incidents": false,
+            "is_public": true,
+            "due_at": null,
+            "tags": [
+                "cliente",
+                "hábil_",
+                "inbursa",
+                "n/a",
+                "na",
+                "rebeca_salinas_clone",
+                "rebeca_salinas_n2",
+                "requerimiento",
+                "resuelto"
+            ],
+            "custom_fields": [
+                {
+                    "id": 360015724594,
+                    "value": "inbursa"
+                },
+                {
+                    "id": 360015065314,
+                    "value": "Rebeca Salinas"
+                },
+                {
+                    "id": 27417640903571,
+                    "value": "rebeca_salinas_clone"
+                },
+                {
+                    "id": 15487331335315,
+                    "value": ""
+                },
+                {
+                    "id": 18968116835859,
+                    "value": "rebeca_salinas_n2"
+                },
+                {
+                    "id": 18968163656211,
+                    "value": null
+                },
+                {
+                    "id": 15774039221907,
+                    "value": null
+                },
+                {
+                    "id": 360015186754,
+                    "value": "requerimiento"
+                },
+                {
+                    "id": 360038794914,
+                    "value": "n/a"
+                },
+                {
+                    "id": 360022071074,
+                    "value": "hábil_"
+                },
+                {
+                    "id": 360024363273,
+                    "value": "0"
+                },
+                {
+                    "id": 18965738101779,
+                    "value": "1.5"
+                },
+                {
+                    "id": 18965754813203,
+                    "value": null
+                },
+                {
+                    "id": 360018398014,
+                    "value": "cliente"
+                },
+                {
+                    "id": 360057878233,
+                    "value": "resuelto"
+                }
+            ],
+            "satisfaction_rating": {
+                "score": "offered"
+            },
+            "sharing_agreement_ids": [],
+            "custom_status_id": 1500002529221,
+            "encoded_id": "MZY761-D314K",
+            "fields": [
+                {
+                    "id": 360015724594,
+                    "value": "inbursa"
+                },
+                {
+                    "id": 360015065314,
+                    "value": "Rebeca Salinas"
+                },
+                {
+                    "id": 27417640903571,
+                    "value": "rebeca_salinas_clone"
+                },
+                {
+                    "id": 15487331335315,
+                    "value": ""
+                },
+                {
+                    "id": 18968116835859,
+                    "value": "rebeca_salinas_n2"
+                },
+                {
+                    "id": 18968163656211,
+                    "value": null
+                },
+                {
+                    "id": 15774039221907,
+                    "value": null
+                },
+                {
+                    "id": 360015186754,
+                    "value": "requerimiento"
+                },
+                {
+                    "id": 360038794914,
+                    "value": "n/a"
+                },
+                {
+                    "id": 360022071074,
+                    "value": "hábil_"
+                },
+                {
+                    "id": 360024363273,
+                    "value": "0"
+                },
+                {
+                    "id": 18965738101779,
+                    "value": "1.5"
+                },
+                {
+                    "id": 18965754813203,
+                    "value": null
+                },
+                {
+                    "id": 360018398014,
+                    "value": "cliente"
+                },
+                {
+                    "id": 360057878233,
+                    "value": "resuelto"
+                }
+            ],
+            "followup_ids": [],
+            "brand_id": 360001653814,
+            "allow_channelback": false,
+            "allow_attachments": true,
+            "from_messaging_channel": false
+        },
+        {
+            "url": "https://casd.zendesk.com/api/v2/tickets/14359.json",
+            "id": 14359,
+            "external_id": null,
+            "via": {
+                "channel": "email",
+                "source": {
+                    "from": {
+                        "address": "luis.bautista@ferromex.mx",
+                        "name": "Luis Alberto Bautista Lujano"
+                    },
+                    "to": {
+                        "name": "CASD",
+                        "address": "helpdesk@casd.com.mx"
+                    },
+                    "rel": null
+                }
+            },
+            "created_at": "2024-07-24T21:31:36Z",
+            "updated_at": "2024-08-09T05:01:26Z",
+            "generated_timestamp": 1723179686,
+            "type": "incident",
+            "subject": "RV: CyberArk",
+            "raw_subject": "RV: CyberArk",
+            "description": "________________________________\nDe: Benjamín Mandujano Salazar <bmandujano@casd.com.mx>\nEnviado: martes, 16 de julio de 2024 17:33\nPara: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx>; GRP Soporte CyberArk <soporte.cyberark@ferromex.mx>\nCc: Elda Patricia Alva Corro <elda.alva@casd.com.mx>\nAsunto: Re: CyberArk\n\nNota: Este correo electrónico proviene de un dominio externo a Grupo México Transportes\n\n\n\nHola Luis, buen día.\n\nYa se realizo una prueba y si llego correo de un reporte generado.\n\nSaludos.\n________________________________\nDe: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx>\nEnviado: martes, 16 de julio de 2024 17:29\nPara: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx>\nCc: Elda Patricia Alva Corro <elda.alva@casd.com.mx>\nAsunto: CyberArk\n\n\nBuenas Tardes equipo\n\n\n\n\n\nMe pueden ayudar a validar que estén llegando correos se modificó la ip del relay  10.10.32.4\n\n\n\n\n\n\n\nSaludos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[cid:image001.jpg@01DAD7A5.A0D3C620]\n\n\n\n[recycle] Antes de imprimir este mensaje asegúrate de que sea necesario; el medio ambiente está en nuestras manos.\n\nLa información y cualquier archivo transmitido en este correo electrónico son confidenciales y están dirigidos exclusivamente a su destinatario. Si los ha recibido por error por favor informe al remitente y proceda a su eliminación. Cualquier otro uso, retención, distribución, impresión o copiado de este correo está estrictamente prohibido. Aunque se supone que este correo y cualquiera de los archivos adjuntos están libre de virus o de otro defecto que pueda afectar el sistema de cómputo donde se recibe y es abierto, es responsabilidad del que recibe asegurarse de que está libre de virus. No existe responsabilidad alguna por parte de Ferrocarril Mexicano y/o sus afiliadas para cualquier daño o pérdida que se presente por su uso.\n\nThis e-mail and any files transmitted are confidential and are intended solely for the use of individual or entity to whom this e-mail is addressed. If you are not a named recipient or otherwise have reason to believe that you have received this message in error, please notify the sender and delete this message. Any other use, retention, dissemination forwarding, printing or copying of this e-mail is strictly prohibited. Although this e-mail and any attachments are believed to be free of any virus or other defect that might affect any computer system into with it is received, and opened, it is responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by Ferrocarril Mexicano and/or its affiliates for any loss or damage arising in any way from its use.",
+            "priority": "normal",
+            "status": "closed",
+            "recipient": "helpdesk@casd.com.mx",
+            "requester_id": 374305978774,
+            "submitter_id": 31670153879443,
+            "assignee_id": 370963202494,
+            "organization_id": 367996891913,
+            "group_id": 360002655254,
+            "collaborator_ids": [],
+            "follower_ids": [],
+            "email_cc_ids": [],
+            "forum_topic_id": null,
+            "problem_id": null,
+            "has_incidents": false,
+            "is_public": true,
+            "due_at": null,
+            "tags": [
+                "benjamin_mandujano",
+                "benjamin_mandujano_clone",
+                "cliente",
+                "ferromex",
+                "hábil_",
+                "n/a",
+                "requerimiento",
+                "resuelto"
+            ],
+            "custom_fields": [
+                {
+                    "id": 360015724594,
+                    "value": "ferromex"
+                },
+                {
+                    "id": 360015065314,
+                    "value": "BENJAMIN MANDUJANO"
+                },
+                {
+                    "id": 27417640903571,
+                    "value": "benjamin_mandujano_clone"
+                },
+                {
+                    "id": 15487331335315,
+                    "value": "benjamin_mandujano"
+                },
+                {
+                    "id": 18968116835859,
+                    "value": null
+                },
+                {
+                    "id": 18968163656211,
+                    "value": null
+                },
+                {
+                    "id": 15774039221907,
+                    "value": null
+                },
+                {
+                    "id": 360015186754,
+                    "value": "requerimiento"
+                },
+                {
+                    "id": 360038794914,
+                    "value": "n/a"
+                },
+                {
+                    "id": 360022071074,
+                    "value": "hábil_"
+                },
+                {
+                    "id": 360024363273,
+                    "value": "1"
+                },
+                {
+                    "id": 18965738101779,
+                    "value": null
+                },
+                {
+                    "id": 18965754813203,
+                    "value": null
+                },
+                {
+                    "id": 360018398014,
+                    "value": "cliente"
+                },
+                {
+                    "id": 360057878233,
+                    "value": "resuelto"
+                }
+            ],
+            "satisfaction_rating": {
+                "score": "offered"
+            },
+            "sharing_agreement_ids": [],
+            "custom_status_id": 1500002529221,
+            "encoded_id": "PMDWJX-Z0DNM",
+            "fields": [
+                {
+                    "id": 360015724594,
+                    "value": "ferromex"
+                },
+                {
+                    "id": 360015065314,
+                    "value": "BENJAMIN MANDUJANO"
+                },
+                {
+                    "id": 27417640903571,
+                    "value": "benjamin_mandujano_clone"
+                },
+                {
+                    "id": 15487331335315,
+                    "value": "benjamin_mandujano"
+                },
+                {
+                    "id": 18968116835859,
+                    "value": null
+                },
+                {
+                    "id": 18968163656211,
+                    "value": null
+                },
+                {
+                    "id": 15774039221907,
+                    "value": null
+                },
+                {
+                    "id": 360015186754,
+                    "value": "requerimiento"
+                },
+                {
+                    "id": 360038794914,
+                    "value": "n/a"
+                },
+                {
+                    "id": 360022071074,
+                    "value": "hábil_"
+                },
+                {
+                    "id": 360024363273,
+                    "value": "1"
+                },
+                {
+                    "id": 18965738101779,
+                    "value": null
+                },
+                {
+                    "id": 18965754813203,
+                    "value": null
+                },
+                {
+                    "id": 360018398014,
+                    "value": "cliente"
+                },
+                {
+                    "id": 360057878233,
+                    "value": "resuelto"
+                }
+            ],
+            "followup_ids": [],
+            "brand_id": 360001653814,
+            "allow_channelback": false,
+            "allow_attachments": true,
+            "from_messaging_channel": false
+        },
+        {
+            "url": "https://casd.zendesk.com/api/v2/tickets/14360.json",
+            "id": 14360,
+            "external_id": null,
+            "via": {
+                "channel": "email",
+                "source": {
+                    "from": {
+                        "address": "luis.bautista@ferromex.mx",
+                        "name": "Luis Alberto Bautista Lujano"
+                    },
+                    "to": {
+                        "name": "CASD",
+                        "address": "helpdesk@casd.com.mx"
+                    },
+                    "rel": null
+                }
+            },
+            "created_at": "2024-07-24T21:34:28Z",
+            "updated_at": "2024-08-09T05:01:26Z",
+            "generated_timestamp": 1723179686,
+            "type": "incident",
+            "subject": "RV: Update CyberArk",
+            "raw_subject": "RV: Update CyberArk",
+            "description": "________________________________\nDe: Benjamín Mandujano Salazar <bmandujano@casd.com.mx>\nEnviado: martes, 16 de julio de 2024 14:51\nPara: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx>; Fabian Bautista <obautista@casd.com.mx>; Pavel Ocotitla <pocotitla@casd.com.mx>; Elda Patricia Alva Corro <elda.alva@casd.com.mx>\nCc: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx>; Ernesto Melendez <emelendez@casd.com.mx>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com>\nAsunto: Re: Update CyberArk\n\nNota: Este correo electrónico proviene de un dominio externo a Grupo México Transportes\n\n\n\nHola Luis, buen día.\n\nFavor de hacer caso omiso al adjunto anterior, este es el actualizado, una disculpa.\n\nSaludos.\n________________________________\nDe: Benjamín Mandujano Salazar <bmandujano@casd.com.mx>\nEnviado: martes, 16 de julio de 2024 14:11\nPara: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx>; Fabian Bautista <obautista@casd.com.mx>; Pavel Ocotitla <pocotitla@casd.com.mx>; Elda Patricia Alva Corro <elda.alva@casd.com.mx>\nCc: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx>; Ernesto Melendez <emelendez@casd.com.mx>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com>\nAsunto: Re: Update CyberArk\n\nHola Luis, buen día.\n\nTe comparto la información solicitada,\n\nSaludos.\n________________________________\nDe: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx>\nEnviado: lunes, 15 de julio de 2024 15:39\nPara: Fabian Bautista <obautista@casd.com.mx>; Benjamín Mandujano Salazar <bmandujano@casd.com.mx>; Pavel Ocotitla <pocotitla@casd.com.mx>; Elda Patricia Alva Corro <elda.alva@casd.com.mx>\nCc: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx>; Ernesto Melendez <emelendez@casd.com.mx>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com>\nAsunto: RE: Update CyberArk\n\n\nPerfecto\n\n\n\n\n\nCuando pueden comenzar con las remediaciones para levantar el control de cambio recuerden que tenemos que dejar todo antes del jueves todo OK para no tener temas de vulnerabilidades\n\n\n\n\n\n\n\nSaludos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[cid:image001.jpg@01DAD6CD.31C82150]\n\n\n\nDe: Fabian Bautista <obautista@casd.com.mx>\nEnviado el: lunes, 15 de julio de 2024 02:47 p. m.\nPara: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx>; Benjamín Mandujano Salazar <bmandujano@casd.com.mx>; Pavel Ocotitla <pocotitla@casd.com.mx>; elda.alva@casd.com.mx\nCC: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx>; Ernesto Melendez <emelendez@casd.com.mx>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com>\nAsunto: RE: Update CyberArk\n\n\n\nNota: Este correo electrónico proviene de un dominio externo a Grupo México Transportes\n\n\n\nBuen Dia Luis,\n\n\n\nTe adjunto el documento con la revisión de las vulnerabilidades asociadas a los componentes de CyberArk\n\n\n\nSaludos\n\n\n\nDe: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx<mailto:luis.bautista@ferromex.mx>>\nEnviado el: lunes, 15 de julio de 2024 09:12 a. m.\nPara: Benjamín Mandujano Salazar <bmandujano@casd.com.mx<mailto:bmandujano@casd.com.mx>>; Pavel Ocotitla <pocotitla@casd.com.mx<mailto:pocotitla@casd.com.mx>>; Fabian Bautista <obautista@casd.com.mx<mailto:obautista@casd.com.mx>>; Elda Patricia Alva Corro <elda.alva@casd.com.mx<mailto:elda.alva@casd.com.mx>>\nCC: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx<mailto:soporte.cyberark@ferromex.mx>>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx<mailto:julio.martinez@ferromex.mx>>; Ernesto Melendez <emelendez@casd.com.mx<mailto:emelendez@casd.com.mx>>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com<mailto:Andres.Munoz@fecrwy.com>>\nAsunto: RE: Update CyberArk\n\n\n\nOk, al parecer no entendieron lo que se requiere voy a quedar en la espera de la revisión de las vulnerabilidades\n\n\n\n\n\n\n\nSaludos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[cid:image001.jpg@01DAD6CD.31C82150]\n\n\n\nDe: Benjamín Mandujano Salazar <bmandujano@casd.com.mx<mailto:bmandujano@casd.com.mx>>\nEnviado el: viernes, 12 de julio de 2024 06:08 p. m.\nPara: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx<mailto:luis.bautista@ferromex.mx>>; Pavel Ocotitla <pocotitla@casd.com.mx<mailto:pocotitla@casd.com.mx>>; Fabian Bautista <obautista@casd.com.mx<mailto:obautista@casd.com.mx>>; elda.alva@casd.com.mx<mailto:elda.alva@casd.com.mx>\nCC: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx<mailto:soporte.cyberark@ferromex.mx>>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx<mailto:julio.martinez@ferromex.mx>>; Ernesto Melendez <emelendez@casd.com.mx<mailto:emelendez@casd.com.mx>>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com<mailto:Andres.Munoz@fecrwy.com>>\nAsunto: Re: Update CyberArk\n\n\n\nNota: Este correo electrónico proviene de un dominio externo a Grupo México Transportes\n\n\n\nHola Luis, buen día.\n\n\n\nRevisando en la tienda de CyberArk y mostrando las ultimas versiones publicadas\n\n\n\n[cid:image002.png@01DAD6CD.31C82150]\n\n\n\nSe encuentra los siguiente:\n\n\n\nComponentes\n\nHostname\n\nIp\n\nVersión de componente\n\nUltima versión en la tienda\n\nBoveda Prod\n\nSHCOXPVHA02\n\n10.1.32.158\n\n13.02.4.50\n\n13.2.4.50\n\nMX_DR Física\n\nSHCOXPVHA01\n\n10.1.32.159\n\n13.02.4.50\n\n13.2.4.50\n\nMX_DR Virtual\n\nSVCOXPVHA\n\n10.1.32.160\n\n13.02.4.50\n\n13.2.4.50\n\nDR GDL\n\nSHGDLPVDR01\n\n10.10.29.55\n\n13.02.4.50\n\n13.2.4.50\n\nDR BWD\n\nBWD-CA101\n\n10.111.20.101\n\n13.02.4.50\n\n13.2.4.50\n\nPVWA\n\nSVCOXPVWA01\n\n10.1.32.149\n\n13.2.0.30\n\n13.2.5.68\n\nSVCOXPVWA02\n\n10.1.32.150\n\n13.2.0.30\n\n13.2.5.68\n\nSVGDLPVWA1\n\n10.10.29.143\n\n13.2.0.30\n\n13.2.5.68\n\nBWD-CA102\n\n10.111.20.102\n\n13.2.0.30\n\n13.2.5.68\n\nCPM\n\nSVCOXPVWA01\n\n10.1.32.149\n\n13.2.0.6\n\n13.2.0.6\n\nSVGDLPVWA1\n\n10.10.29.143\n\n13.2.0.6\n\n13.2.0.6\n\nBWD-CA102\n\n10.111.20.102\n\n13.2.0.6\n\n13.2.0.6\n\nPSM\n\nSVCOXPSM01\n\n10.1.32.121\n\n13.2.0.12\n\n13.2.3.4\n\nSVCOXPSM02\n\n10.1.32.122\n\n13.2.0.12\n\n13.2.3.4\n\nSVGDLPSM01\n\n10.10.29.64\n\n13.2.0.12\n\n13.2.3.4\n\nBWD-CA103\n\n10.111.20.103\n\n13.2.3.4\n\n13.2.3.4\n\nPTA Win\n\nSVCOXPTAPM\n\n10.10.32.180\n\n12.2.5.1\n\n12.2.5.1\n\nIdentity\n\nSVCOXFMA1\n\n10.1.32.100\n\n24.6.216\n\n24.6.216\n\n\n\nDe rojo te coloco los servidores que no están actualizados a la ultima versión de 13.2 del fabricante.\n\n\n\nDame oportunidad de trabajar un plan de trabajo para la actualización de los mismo.\n\n\n\nSaludos.\n\n\n\n\n\n________________________________\n\nDe: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx<mailto:luis.bautista@ferromex.mx>>\nEnviado: miércoles, 10 de julio de 2024 15:32\nPara: Benjamín Mandujano Salazar <bmandujano@casd.com.mx<mailto:bmandujano@casd.com.mx>>; Pavel Ocotitla <pocotitla@casd.com.mx<mailto:pocotitla@casd.com.mx>>; Fabian Bautista <obautista@casd.com.mx<mailto:obautista@casd.com.mx>>; Elda Patricia Alva Corro <elda.alva@casd.com.mx<mailto:elda.alva@casd.com.mx>>\nCc: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx<mailto:soporte.cyberark@ferromex.mx>>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx<mailto:julio.martinez@ferromex.mx>>; Ernesto Melendez <emelendez@casd.com.mx<mailto:emelendez@casd.com.mx>>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com<mailto:Andres.Munoz@fecrwy.com>>\nAsunto: RE: Update CyberArk\n\n\n\nOK, solo pueden confirmar que no exista algún update de la misma versión para quitar alguna vulnerabilidad de los componentes\n\n\n\n\n\n\n\nSaludos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[cid:image001.jpg@01DAD6CD.31C82150]\n\n\n\nDe: Benjamín Mandujano Salazar <bmandujano@casd.com.mx<mailto:bmandujano@casd.com.mx>>\nEnviado el: miércoles, 10 de julio de 2024 01:39 p. m.\nPara: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx<mailto:luis.bautista@ferromex.mx>>; Pavel Ocotitla <pocotitla@casd.com.mx<mailto:pocotitla@casd.com.mx>>; Fabian Bautista <obautista@casd.com.mx<mailto:obautista@casd.com.mx>>; elda.alva@casd.com.mx<mailto:elda.alva@casd.com.mx>\nCC: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx<mailto:soporte.cyberark@ferromex.mx>>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx<mailto:julio.martinez@ferromex.mx>>; Ernesto Melendez <emelendez@casd.com.mx<mailto:emelendez@casd.com.mx>>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com<mailto:Andres.Munoz@fecrwy.com>>\nAsunto: Re: Update CyberArk\n\n\n\nNota: Este correo electrónico proviene de un dominio externo a Grupo México Transportes\n\n\n\nHola Luis, buen día.\n\n\n\nDando respuesta a tu consulta te comento que actualmente se tienen los equipos en la versión que se muestra a continuación\n\n\n\nComponentes\n\nHostname\n\nIp\n\nVersión de componente\n\nSistema Operativo\n\nBoveda Prod\n\nSHCOXPVHA02\n\n10.1.32.158\n\n13.2\n\nWindows Server 2019\n\nMX_DR Física\n\nSHCOXPVHA01\n\n10.1.32.159\n\n13.2\n\nWindows Server 2019\n\nMX_DR Virtual\n\nSVCOXPVHA\n\n10.1.32.160\n\n13.2\n\nWindows Server 2019\n\nDR GDL\n\nSHGDLPVDR01\n\n10.10.29.55\n\n13.2\n\nWindows Server 2019\n\nDR BWD\n\nBWD-CA101\n\n10.111.20.101\n\n13.2\n\nWindows Server 2019\n\nPVWA\n\nSVCOXPVWA01\n\n10.1.32.149\n\n13.2.0.30\n\nWindows Server 2019\n\nSVCOXPVWA02\n\n10.1.32.150\n\n13.2.0.30\n\nWindows Server 2019\n\nSVGDLPVWA1\n\n10.10.29.143\n\n13.2.0.30\n\nWindows Server 2019\n\nBWD-CA102\n\n10.111.20.102\n\n13.2.0.30\n\nWindows Server 2019\n\nCPM\n\nSVCOXPVWA01\n\n10.1.32.149\n\n13.2\n\nWindows Server 2019\n\nSVGDLPVWA1\n\n10.10.29.143\n\n13.2\n\nWindows Server 2019\n\nBWD-CA102\n\n10.111.20.102\n\n13.2\n\nWindows Server 2019\n\nPSM\n\nSVCOXPSM01\n\n10.1.32.121\n\n13.2.0.35\n\nWindows Server 2019\n\nSVCOXPSM02\n\n10.1.32.122\n\n13.2.0.35\n\nWindows Server 2019\n\nSVGDLPSM01\n\n10.10.29.64\n\n13.2.0.35\n\nWindows Server 2019\n\nBWD-CA103\n\n10.111.20.103\n\n13.2.0.35\n\nWindows Server 2019\n\nPSMP\n\nSVCOXPSMP\n\n10.1.32.60\n\n13.2\n\nRed Hat 8.7\n\nSVCOXPSMP1\n\n10.1.32.59\n\n13.2\n\nRed Hat 8.7\n\nSVCOXPSMP2\n\n10.10.32.102\n\n13.2\n\nRed Hat 8.7\n\nSVCOXPSMP4\n\n10.1.32.153\n\n13.2\n\nRed Hat 8.7\n\nSVGDLPSMP01\n\n10.10.29.63\n\n13.2\n\nRed Hat 8.7\n\nSVGDLPSMP02\n\n10.10.29.73\n\n13.2\n\nRed Hat 8.7\n\nBWD-CA104\n\n10.111.20.104\n\n13.2\n\nRed Hat 7.9\n\nPTA Unix\n\nPTAServer\n\n10.10.32.128\n\n13.2\n\nRed Hat 8.6\n\nPTA Win\n\nSVCOXPTAPM\n\n10.10.32.180\n\n13.2\n\nWindows Server 2016\n\nIdentity\n\nSVCOXFMA1\n\n10.1.32.100\n\n23.10.218\n\nWindows Server 2019\n\n\n\nNosotros no recomendamos actualizar a la ultima versión de CyberArk debido a que, en nuestra experiencia con otros clientes, se realizo la actualización a la versión 14.0 de CyberArk y se tuvieron muchos problemas relación a la versión los cuales para solucionar se tuvo que regresar a la versión 13.2.\n\n\n\nActualmente estamos validando que la nueva versión sea estable debido a que la versión 14.2 se publico hace 3 semanas y aun no estamos seguros de que no presente problemas.\n\n\n\nQuedo a la espera de sus comentarios,\n\n\n\nSaludos.\n\n\n\n________________________________\n\nDe: Luis Alberto Bautista Lujano <luis.bautista@ferromex.mx<mailto:luis.bautista@ferromex.mx>>\nEnviado: miércoles, 10 de julio de 2024 13:00\nPara: Pavel Ocotitla <pocotitla@casd.com.mx<mailto:pocotitla@casd.com.mx>>; Fabian Bautista <obautista@casd.com.mx<mailto:obautista@casd.com.mx>>; Elda Patricia Alva Corro <elda.alva@casd.com.mx<mailto:elda.alva@casd.com.mx>>\nCc: GRP Soporte CyberArk <soporte.cyberark@ferromex.mx<mailto:soporte.cyberark@ferromex.mx>>; Julio Cesar Martinez Garcia <julio.martinez@ferromex.mx<mailto:julio.martinez@ferromex.mx>>; Ernesto Melendez <emelendez@casd.com.mx<mailto:emelendez@casd.com.mx>>; Munoz, Andres (HIA) <Andres.Munoz@fecrwy.com<mailto:Andres.Munoz@fecrwy.com>>\nAsunto: Update CyberArk\n\n\n\nBuenas tardes equipo CASD\n\n\n\n\n\nUn favor nos pueden ayudar a revisar la versión que tenemos actual en la herramienta de CyberArk y validar que no se requiera hacer ningún update ya que como les comentamos tenemos pruebas de pentest y necesitamos estar cubiertos en todos los componentes y vault.\n\n\n\n\n\n\n\n\n\nSaludos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[cid:image001.jpg@01DAD6CD.31C82150]\n\n\n\n[Imagen quitada por el remitente. recycle]Antes de imprimir este mensaje asegúrate de que sea necesario; el medio ambiente está en nuestras manos.\n\nLa información y cualquier archivo transmitido en este correo electrónico son confidenciales y están dirigidos exclusivamente a su destinatario. Si los ha recibido por error por favor informe al remitente y proceda a su eliminación. Cualquier otro uso, retención, distribución, impresión o copiado de este correo está estrictamente prohibido. Aunque se supone que este correo y cualquiera de los archivos adjuntos están libre de virus o de otro defecto que pueda afectar el sistema de cómputo donde se recibe y es abierto, es responsabilidad del que recibe asegurarse de que está libre de virus. No existe responsabilidad alguna por parte de Ferrocarril Mexicano y/o sus afiliadas para cualquier daño o pérdida que se presente por su uso.\n\nThis e-mail and any files transmitted are confidential and are intended solely for the use of individual or entity to whom this e-mail is addressed. If you are not a named recipient or otherwise have reason to believe that you have received this message in error, please notify the sender and delete this message. Any other use, retention, dissemination forwarding, printing or copying of this e-mail is strictly prohibited. Although this e-mail and any attachments are believed to be free of any virus or other defect that might affect any computer system into with it is received, and opened, it is responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by Ferrocarril Mexicano and/or its affiliates for any loss or damage arising in any way from its use.\nimage001.jpg\nimage002.png\nimage003.jpg\nComponentes CyberArk 4_VCASD.xlsx",
+            "priority": "normal",
+            "status": "closed",
+            "recipient": "helpdesk@casd.com.mx",
+            "requester_id": 374305978774,
+            "submitter_id": 31670153879443,
+            "assignee_id": 370963202494,
+            "organization_id": 367996891913,
+            "group_id": 360002655254,
+            "collaborator_ids": [],
+            "follower_ids": [],
+            "email_cc_ids": [],
+            "forum_topic_id": null,
+            "problem_id": null,
+            "has_incidents": false,
+            "is_public": true,
+            "due_at": null,
+            "tags": [
+                "benjamin_mandujano",
+                "benjamin_mandujano_clone",
+                "cliente",
+                "ferromex",
+                "hábil_",
+                "n/a",
+                "requerimiento",
+                "resuelto"
+            ],
+            "custom_fields": [
+                {
+                    "id": 360015724594,
+                    "value": "ferromex"
+                },
+                {
+                    "id": 360015065314,
+                    "value": "BENJAMIN MANDUJANO"
+                },
+                {
+                    "id": 27417640903571,
+                    "value": "benjamin_mandujano_clone"
+                },
+                {
+                    "id": 15487331335315,
+                    "value": "benjamin_mandujano"
+                },
+                {
+                    "id": 18968116835859,
+                    "value": null
+                },
+                {
+                    "id": 18968163656211,
+                    "value": null
+                },
+                {
+                    "id": 15774039221907,
+                    "value": null
+                },
+                {
+                    "id": 360015186754,
+                    "value": "requerimiento"
+                },
+                {
+                    "id": 360038794914,
+                    "value": "n/a"
+                },
+                {
+                    "id": 360022071074,
+                    "value": "hábil_"
+                },
+                {
+                    "id": 360024363273,
+                    "value": "1"
+                },
+                {
+                    "id": 18965738101779,
+                    "value": null
+                },
+                {
+                    "id": 18965754813203,
+                    "value": null
+                },
+                {
+                    "id": 360018398014,
+                    "value": "cliente"
+                },
+                {
+                    "id": 360057878233,
+                    "value": "resuelto"
+                }
+            ],
+            "satisfaction_rating": {
+                "score": "offered"
+            },
+            "sharing_agreement_ids": [],
+            "custom_status_id": 1500002529221,
+            "encoded_id": "Z1M4ZW-GJY5P",
+            "fields": [
+                {
+                    "id": 360015724594,
+                    "value": "ferromex"
+                },
+                {
+                    "id": 360015065314,
+                    "value": "BENJAMIN MANDUJANO"
+                },
+                {
+                    "id": 27417640903571,
+                    "value": "benjamin_mandujano_clone"
+                },
+                {
+                    "id": 15487331335315,
+                    "value": "benjamin_mandujano"
+                },
+                {
+                    "id": 18968116835859,
+                    "value": null
+                },
+                {
+                    "id": 18968163656211,
+                    "value": null
+                },
+                {
+                    "id": 15774039221907,
+                    "value": null
+                },
+                {
+                    "id": 360015186754,
+                    "value": "requerimiento"
+                },
+                {
+                    "id": 360038794914,
+                    "value": "n/a"
+                },
+                {
+                    "id": 360022071074,
+                    "value": "hábil_"
+                },
+                {
+                    "id": 360024363273,
+                    "value": "1"
+                },
+                {
+                    "id": 18965738101779,
+                    "value": null
+                },
+                {
+                    "id": 18965754813203,
+                    "value": null
+                },
+                {
+                    "id": 360018398014,
+                    "value": "cliente"
+                },
+                {
+                    "id": 360057878233,
+                    "value": "resuelto"
+                }
+            ],
+            "followup_ids": [],
+            "brand_id": 360001653814,
+            "allow_channelback": false,
+            "allow_attachments": true,
+            "from_messaging_channel": false
+        }
+    ],
+    "next_page": "https://casd.zendesk.com/api/v2/tickets.json?page=2",
+    "previous_page": null,
+    "count": 805
+}

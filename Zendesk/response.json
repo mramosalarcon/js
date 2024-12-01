@@ -1,0 +1,186 @@
+{
+    "ticket": {
+        "url": "https://casd.zendesk.com/api/v2/tickets/14907.json",
+        "id": 14907,
+        "external_id": null,
+        "via": {
+            "channel": "web",
+            "source": {
+                "from": {},
+                "to": {},
+                "rel": null
+            }
+        },
+        "created_at": "2024-10-17T23:28:20Z",
+        "updated_at": "2024-11-13T17:36:08Z",
+        "generated_timestamp": 1731519369,
+        "type": "incident",
+        "subject": "Cuentas en incumplimiento [Eglobal]",
+        "raw_subject": "Cuentas en incumplimiento [Eglobal]",
+        "description": "\n************* Apertura de ticket: \" Cuentas en incumplimeinto [Eglobal] \" *************\n\nHola Ángela Barrios,\n\nSe detectaron las siguientes cuentas en **Not Compliant** debido a diferentes factores los cuales adjuntamos a continuación, favor de apoyarnos a revisar lo que corresponde con los responsables de las cuentas o quien corresponda:\n\n\n172.29.40.21 P-COMAND-CH NX-PRCMP-MENU-SU-PSMLB-CH Network Access Config. Ticket 14877\n172.29.40.164 P-NX-RM NX-PRCMP-SU-PSMLB-CH Cuenta no existe\n172.29.40.22 P-NX-RM NX-PRCMP-SU-PSMLB-CH Cuenta no existe\n172.29.40.11 P-NX-BD NX-PRCMP-SU-PSMLB-CH sudo not exists, revisar con responsable permisos\n10.36.16.107 P-CHECK-TELEC-ADM NX-TELECOM-FORTINET-PSMLB-CH Cambiada manualmente, cambiar en próxima ventana\n192.168.51.21 P-CHECK-TELEC-MONSDI-CH NX-TELECOM-SSH-WEB-APP-CHECKPOINT-PSMLB-CH Cambiar en próxima ventana\negllinvoz03mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\negllinvoz02mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\negllinvoz05mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\negllinvoz04mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\negllinvoz01mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\negllinvoz06mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\negllinvoz13mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\negllinvoz11mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\negllinvoz12mx.eglobal.com.mx P-WD-AQM NX-TELECOM-SSH-WEB-VOZ En espera de enrolamiento de egladmin y eliminación de osadmin\n172.20.5.132 P-NX-WEB-IDRAC-VIRTUAL NX-WEB-DELL-IDRAC9-PSMLB-CH Password incorrecto, solicitar recuperación.\n10.36.25.222 P-NX-WEB-IDRAC-VIRTUAL NX-WEB-DELL-IDRAC9-PSMLB-CH Password incorrecto, solicitar recuperación.\n172.20.5.135 P-NX-WEB-IDRAC-VIRTUAL NX-WEB-DELL-IDRAC9-PSMLB-CH Password incorrecto, solicitar recuperación.\n172.20.5.136 P-NX-WEB-IDRAC-VIRTUAL NX-WEB-DELL-IDRAC9-PSMLB-CH Password incorrecto, solicitar recuperación.\n192.168.54.60 ADM-VCENTER-VXRAIL-BNV NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n192.168.130.20 ADM-VCENTER-VXRAIL-BNV NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n192.168.130.21 ADM-VCENTER-VXRAIL-BNV NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n192.168.130.22 ADM-VCENTER-VXRAIL-BNV NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n172.29.45.21 ADM-VCENTER-VXRAIL-BNV NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n172.29.20.48 ADM-VCENTER-VXRAIL-BNV NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n172.29.45.20 ADM-VCENTER-VXRAIL-BNV NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n172.29.45.22 ADM-VCENTER-VXRAIL-BNV NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n172.29.224.8 P-WD-AQM NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n10.36.5.11 P-WD-AQM NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n172.29.224.6 P-WD-AQM NX-WEB-VMWARE-ESXI-PSMLB-CH No hay comunicación puerto 22, solicitar reapertura. Existe?\n172.29.21.100 WD-SDIPF WD-DOM-ADM-PSMLB-CH Usuario existe?\n10.36.45.95 P-CYARK-ADM-COMPO-CH WD-LOC-CYARK-ADM-COMPO-PSMLB-ALERO No hay comuniicación por puertos 135, 139, 445. Solicitar apertura\n10.36.45.95 P-CYARK-ADM-COMPO-CH WD-LOC-CYARK-ADM-COMPO-PSMLB-ALERO No hay comuniicación por puertos 135, 139, 445. Solicitar apertura\n172.29.145.28 P-NX-DG_PS01 WD-LOC-PRCMP-PSMLB-CH Esperar a cambio programado 05/11/24. Ticket 14878\n10.36.25.70 P-APP-IDS-ADMIN WD-LOC-PRCMP-PSMLB-CH winRC5, solicitar revisión de políticas UAC. Ticket 14878\n10.36.29.48 P-ADM-VORMETRIC WEB-CIPHERTRUST-PSMLB-CH Cambio programado para 05/11/24 por políticas de espera\n192.168.54.249 P-ADM-BLNC-DBSAT WEB-CIPHERTRUST-PSMLB-CH Password incorrecto, se solicita recuperación o eliminación\n192.168.58.22 P-ADM-VCENTER-VBLOCK-QRO WEB-NUTANIX-SUPERMICRO-PSMLB Password incorrecto, solicitar recuperación.\n10.36.135.20 P-ADM-VCENTER-VBLOCK-QRO WEB-NUTANIX-SUPERMICRO-PSMLB Password incorrecto, solicitar recuperación.\neglkvmauthmx01.eglobal.com.mx ADM-VCENTER-VXRAIL-BNV WEB-ORA-VMAN-PSMLB En espera de cuenta tercera para cambio de egladmin\neglkvmauthqr01.eglobal.com.mx ADM-VCENTER-VXRAIL-BNV WEB-ORA-VMAN-PSMLB En espera de cuenta tercera para cambio de egladmin\n\n\n\nCualquier duda o comentario quedamos atentos.\nSaludos\n\n\n\n\n\n**************************************************************",
+        "priority": "normal",
+        "status": "hold",
+        "recipient": null,
+        "requester_id": 428285355514,
+        "submitter_id": 370691200154,
+        "assignee_id": 370691200154,
+        "organization_id": 367996875013,
+        "group_id": 360018204233,
+        "collaborator_ids": [
+            27989789504019
+        ],
+        "follower_ids": [
+            27989789504019
+        ],
+        "email_cc_ids": [],
+        "forum_topic_id": null,
+        "problem_id": null,
+        "has_incidents": false,
+        "is_public": true,
+        "due_at": null,
+        "tags": [
+            "cliente",
+            "daniel_noguez_n3",
+            "e-global",
+            "gnoguez_casd.com.mx",
+            "hábil_",
+            "n/a",
+            "requerimiento"
+        ],
+        "custom_fields": [
+            {
+                "id": 360015724594,
+                "value": "e-global"
+            },
+            {
+                "id": 360015065314,
+                "value": "DANIEL NOGUEZ"
+            },
+            {
+                "id": 27417640903571,
+                "value": "gnoguez_casd.com.mx"
+            },
+            {
+                "id": 15487331335315,
+                "value": null
+            },
+            {
+                "id": 18968116835859,
+                "value": null
+            },
+            {
+                "id": 18968163656211,
+                "value": "daniel_noguez_n3"
+            },
+            {
+                "id": 15774039221907,
+                "value": null
+            },
+            {
+                "id": 360015186754,
+                "value": "requerimiento"
+            },
+            {
+                "id": 360038794914,
+                "value": "n/a"
+            },
+            {
+                "id": 360022071074,
+                "value": "hábil_"
+            },
+            {
+                "id": 360024363273,
+                "value": null
+            },
+            {
+                "id": 18965738101779,
+                "value": null
+            },
+            {
+                "id": 18965754813203,
+                "value": "7"
+            },
+            {
+                "id": 360018398014,
+                "value": "cliente"
+            },
+            {
+                "id": 360057878233,
+                "value": null
+            }
+        ],
+        "satisfaction_rating": {
+            "score": "unoffered"
+        },
+        "sharing_agreement_ids": [],
+        "custom_status_id": 1500002529201,
+        "encoded_id": "PJ7549-R2NPL",
+        "fields": [
+            {
+                "id": 360015724594,
+                "value": "e-global"
+            },
+            {
+                "id": 360015065314,
+                "value": "DANIEL NOGUEZ"
+            },
+            {
+                "id": 27417640903571,
+                "value": "gnoguez_casd.com.mx"
+            },
+            {
+                "id": 15487331335315,
+                "value": null
+            },
+            {
+                "id": 18968116835859,
+                "value": null
+            },
+            {
+                "id": 18968163656211,
+                "value": "daniel_noguez_n3"
+            },
+            {
+                "id": 15774039221907,
+                "value": null
+            },
+            {
+                "id": 360015186754,
+                "value": "requerimiento"
+            },
+            {
+                "id": 360038794914,
+                "value": "n/a"
+            },
+            {
+                "id": 360022071074,
+                "value": "hábil_"
+            },
+            {
+                "id": 360024363273,
+                "value": null
+            },
+            {
+                "id": 18965738101779,
+                "value": null
+            },
+            {
+                "id": 18965754813203,
+                "value": "7"
+            },
+            {
+                "id": 360018398014,
+                "value": "cliente"
+            },
+            {
+                "id": 360057878233,
+                "value": null
+            }
+        ],
+        "followup_ids": [],
+        "brand_id": 360001653814,
+        "allow_channelback": false,
+        "allow_attachments": true,
+        "from_messaging_channel": false
+    }
+}
